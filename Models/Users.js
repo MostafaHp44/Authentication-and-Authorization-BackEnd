@@ -10,7 +10,20 @@ const Acc= new mongoose.Schema({
     password:{
         type:String,
         required:true,
-    }
+    },
+
+    phone:{
+        type:String,
+        required:true,
+    },
+    bio:{
+        type:String,
+        required:true,
+    },
+    name:{
+        type:String,
+        required:true,
+    },
 })
  
 
